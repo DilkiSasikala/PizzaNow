@@ -1,0 +1,263 @@
+/*nav styles*/
+.navbar{
+	background-color: #1f1f1f;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 30px 0 rgba(0, 0, 0, 0.19);
+
+}
+.logo{
+	height: auto;
+	width: auto;
+	max-height: 50px;
+	max-width: 230px;
+}
+.nav-link{
+	font-family: "Merienda One";
+	color: #fbfbfa;
+	font-size: 14px;
+}
+.nav-link:hover{
+	color: #eea243;
+	text-decoration: none;
+}
+.nav-link:active{
+	color: #eea243;
+}
+.navbar-nav > li{
+	padding-left:30px;
+	padding-right:30px;
+}
+.cart{
+	float: right;
+}
+.navbar-toggler-icon {
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(238, 162, 67, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+/*background image*/
+.main-container{
+	background-image: url("https://besthqwallpapers.com/Uploads/25-5-2020/134632/thumb2-4k-black-stone-background-cracked-stone-texture-stone-textures-grunge-backgrounds.jpg");
+	height: 100%;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+
+/*carousel*/
+.d-block {
+	z-index: -1;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 700px;
+	object-fit: cover;
+}
+.content {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 20;
+	color: white;
+	text-align: center;
+	text-shadow: 0 1px 2px rgba(0,0,0,.6);
+}
+.carousel-heading{
+	font-family: "Merienda One";
+	color: #eea243;
+	font-size: 60px;
+}
+.carousel1-heading{
+	font-family: "Merienda One";
+	color: #eea243;
+	font-size: 80px;
+}
+.carousel1-content{
+	font-family: "Quicksand";
+	font-size: 20px;
+}
+.quote{
+	font-family: "Quicksand";
+	color: #eea243;
+}
+
+
+/*info with image*/
+/*.info-image{*/
+/*	width: 50%;*/
+/*	height: 500px;*/
+/*}*/
+
+
+/*home page infobar*/
+.info-bar{
+	margin-bottom: 10px;
+	width: 100%;
+	height: 400px;
+	background-color: #eea243;
+	box-shadow: 0 4px 8px 8px rgba(0, 0, 0, 0.2), 0 6px 20px 5px rgba(0, 0, 0, 0.19);
+}
+.fa-pizza-slice, .fa-motorcycle, .fa-store{
+	color: #edf0f2;
+	margin-top: 130px;
+}
+
+
+/*menu*/
+.menu-section{
+	margin-top: 70px;
+}
+.menu-title{
+	font-family: Quicksand;
+	color: #fbfbfa;
+	text-align: center
+}
+.menu-line{
+	border-top:1px solid #fbfbfa;
+	width: 50%;
+}
+
+
+/*pizza slection*/
+.pizza-section{
+	margin-top: 80px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+.card-img-top{
+	height: 300px;
+	width: 100%;
+	object-fit: cover
+}
+.card{
+	color: #fbfbfa;
+	font-family: Quicksand;
+	background: rgba(255, 255, 255, 0.13);
+	border-radius: 0 !important;
+}
+.order-btn{
+ 	background-color: #eea243;
+	border-radius: 0 !important;
+}
+
+
+/*customize page*/
+.customize-page{
+	background: rgba(255, 255, 255, 0.13);
+	margin-top: 50px;
+	margin-left: 50px;
+	margin-right: 50px;
+	font-family: Quicksand;
+}
+
+.column {
+	float: left;
+	padding: 10px;
+}
+
+.left {
+	width: 50%;
+}
+
+.right {
+	width: 50%;
+	color: #fbfbfa;
+}
+
+ Clear floats after the columns
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.col-div{
+	margin-right: 5px;
+	margin-left: 20px;
+}
+.form-title-head{
+	margin-top: 20px;
+}
+.form-title{
+	border-top: 1px solid #edf0f2;
+	margin: 0px;
+	margin-bottom: 20px;
+	/*margin-top: 10px;*/
+	width: 20%;
+}
+
+/*cart*/
+
+.cart-content{
+	margin-top:20px;
+	color: #fbfbfa;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.cart-title{
+	text-align: center;
+	color: #fbfbfa;
+}
+.cart-rule{
+	border-top: 1px solid #edf0f2;
+	margin: auto;
+	width: 20%;
+}
+.confirm-btn{
+	background-color: #ce433b;
+	color: #fbfbfa;
+	border-radius: 0 !important;
+}
+
+
+
+/*location page*/
+.form-location-title{
+	border-top: 1px solid #edf0f2;
+	margin: 0px;
+	margin-bottom: 20px;
+}
+
+.order-time{
+	color: #fbfbfa;
+	font-family: Quicksand;
+}
+
+
+
+/*about page*/
+.about-content{
+	margin: 0px;
+	text-align: center;
+	color: #fbfbfa;
+}
+
+
+
+/*footer styles*/
+.page-footer {
+	background-color: #3d3d3d;
+	font-family: "Roboto Light";
+	bottom: 0px;
+	min-width: 100%;
+	margin-top: 25px;
+}
+.footer-text, .footer-copyright{
+	color: #fbfbfa;
+}
+a.text-uppercase, a.fb-ic, a.tw-ic, a.ins-ic, a.li-ic, a.pin-ic{
+	color: #edf0f2;
+}
+a.text-uppercase:hover, a.fb-ic:hover, a.tw-ic:hover, a.ins-ic:hover, a.li-ic:hover, a.pin-ic:hover{
+	color: #bfbfb0;
+	text-decoration: none;
+}
+.icon-center{
+	text-align: center;
+}
+.line-colour{
+	border-top: 1px solid #edf0f2;
+	margin: 0 15%;
+}
+.footer-copyright{
+	background-color: #292929;
+}
