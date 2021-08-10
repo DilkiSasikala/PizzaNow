@@ -69,9 +69,9 @@ Acknowledgement
 The CodeIgniter team would like to thank EllisLab, all the
 contributors to the CodeIgniter project and you, the CodeIgniter user.
 
-***************
+**********************
 To run the application
-***************
+**********************
 
 - 1. Clone the project
 - 2. Change the base url to your URL in config.php
